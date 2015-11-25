@@ -1,0 +1,2 @@
+2014-07-14 13:51:53 - PHP Notice:  Undefined variable: tx_telephone in C:\wamp\www\439\catalog\view\theme\theme439\template\common\footer.tpl on line 55
+2014-07-14 13:52:34 - PHP Notice:  Undefined variable: tx_telephone in C:\wamp\www\439\catalog\view\theme\theme439\template\common\footer.tpl on line 55
