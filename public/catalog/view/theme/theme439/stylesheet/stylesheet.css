@@ -4125,4 +4125,10 @@ table.radio {
 z-index:8;
 }
 
-
+/* WEBCA */
+.compare {
+	display: none;
+}
+.wishlist {
+	display: none;
+}
