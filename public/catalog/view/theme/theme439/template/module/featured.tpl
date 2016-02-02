@@ -14,7 +14,7 @@
 		<ul class="row">
 		  <?php $i=0; foreach ($products as $product) { $i++ ?>
 		  <?php 
-			   $perLine = 4;
+			   $perLine = 3;
 			   $spanLine = 3;
 			   $last_line = "";
 							$total = count($products);

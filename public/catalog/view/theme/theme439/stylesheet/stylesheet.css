@@ -3523,14 +3523,15 @@ footer .table thead td{
 	text-transform:none;
 	font-weight:300;
 	color:#fff !important;
-	border-left:1px solid #535353;
 	background:url(../image/line-table.png) repeat-x left top #272727;
 	padding:15px 25px 16px 29px;
+    border: 0px;
 }
 footer .table tbody td{
 	border-left:1px solid #5c5c5c;
 	background:url(../image/bg-table.png) repeat-x left top #333;
 	padding:24px 25px 15px 29px;
+    border: 0px;
 }
 footer .table tbody > tr > td{
 	border-top-color:#525252;
