@@ -4127,8 +4127,8 @@ z-index:8;
 
 /* WEBCA */
 .compare {
-	display: none;
+	display: none !important;
 }
 .wishlist {
-	display: none;
+	display: none !important;
 }
