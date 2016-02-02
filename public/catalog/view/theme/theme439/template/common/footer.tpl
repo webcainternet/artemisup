@@ -12,9 +12,9 @@
 			<tr>
 				<?php if ($informations) { ?><td><?php echo $text_information; ?></td><?php } ?>
 				<td><?php echo $text_service; ?></td>
-				<td><?php echo $text_extra; ?></td>
 				<td><?php echo $text_account; ?></td>
-				<td><?php echo $text_follow; ?></td>
+				<?php /* <td>Siga-nos</td> */ ?>
+				<td colspan="2">Formas de pagamento</td>
 			</tr>
 		</thead>
 		<tbody>
@@ -35,20 +35,13 @@
 				</td>
 				<td>
 					<ul>
-						<li><a href="<?php echo $manufacturer; ?>"><?php echo $text_manufacturer; ?></a></li>
-						<li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
-						<li><a href="<?php echo $affiliate; ?>"><?php echo $text_affiliate; ?></a></li>
-						<li><a href="<?php echo $special; ?>"><?php echo $text_special; ?></a></li>
-					</ul>
-				</td>
-				<td>
-					<ul>
 						<li><a href="<?php echo $account; ?>"><?php echo $text_account; ?></a></li>
 						<li><a href="<?php echo $order; ?>"><?php echo $text_order; ?></a></li>
 						<li><a href="<?php echo $wishlist; ?>"><?php echo $text_wishlist; ?></a></li>
 						<li><a href="<?php echo $newsletter; ?>"><?php echo $text_newsletter; ?></a></li>
 					</ul>
 				</td>
+				<?php /*
 				<td>
 					<div class="foot-phone">
 							<div class="tx__footer"><?php echo $tx_telephone; ?></div>
@@ -59,6 +52,18 @@
 						<li><a class="tooltip-1" title="<?php echo $text_twi; ?>" href="http://twitter.com"><i class="fa fa-twitter-square"></i></a></li>
 						<li><a class="tooltip-1" title="<?php echo $text_rss; ?>" href="#"><i class="fa fa-rss-square"></i></a></li>
 					</ul>
+				</td> */ ?>
+				<td colspan="2">
+					<div class="footer_box">
+						<ul class="list-unstyled">
+						<li><a>Cartões de Crédito</a></li>
+						<li><img src="/image/credito.png"></li>
+						<li><a>Cartões de Débito</a></li>
+						<li><img src="/image/debito.png"></li>
+						<li><a>Outros</a></li>
+						<li><img src="/image/boleto.png"></li>
+						</ul>
+					</div>
 				</td>
 			</tr>
 		</tbody>		

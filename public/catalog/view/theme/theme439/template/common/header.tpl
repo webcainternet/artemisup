@@ -180,7 +180,7 @@ $('body').prepend('<iframe src="<?php echo $store; ?>" style="display: none;"></
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-sm-12">
+					<div class="col-sm-12" style="background: white; width: 1230px; margin-left: 15px; padding-top: 30px; border-top: solid 4px #472183;">
 						<!-- Logo -->
 						<?php if ($logo) { ?>
 							<div id="logo"><a href="<?php echo $home; ?>"><img src="<?php echo $logo; ?>" title="<?php echo $name; ?>" alt="<?php echo $name; ?>" /></a></div>
