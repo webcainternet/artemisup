@@ -1,6 +1,6 @@
 <?php echo $header; ?>
 <style type="text/css">
-@media (min-width: 768px)
+@media (min-width: 768px) {
 	.col-sm-3 {
     	width: 25%;
 	}
